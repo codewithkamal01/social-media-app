@@ -54,7 +54,7 @@ function NavBar() {
                 <span className="text-gray-300">{displayName}</span>
                 <button
                   onClick={signOut}
-                  className="bg-red-500 px-3 py-1 rounded-full"
+                  className="bg-red-500 px-3 py-1 cursor-pointer rounded-full"
                 >
                   Sign Out
                 </button>
@@ -62,7 +62,7 @@ function NavBar() {
             ) : (
               <button
                 onClick={signInWithGitHub}
-                className="bg-blue-500 px-3 py-1 rounded-full"
+                className="bg-blue-500 px-3 py-1 cursor-pointer rounded-full"
               >
                 Sign in with GitHub
               </button>

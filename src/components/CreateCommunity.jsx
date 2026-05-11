@@ -49,7 +49,7 @@ const CreateCommunity = () => {
       onSubmit={handleSubmit}
       className="max-w-2xl mx-auto mt-10 p-6 bg-white/5 backdrop-blur-xl border border-white/10 rounded-2xl shadow-lg space-y-6"
     >
-      <h2 className="text-3xl font-bold text-center bg-gradient-to-r from-purple-500 to-pink-500 bg-clip-text text-transparent">
+      <h2 className="text-3xl cursor-pointer font-bold text-center bg-gradient-to-r from-purple-500 to-pink-500 bg-clip-text text-transparent">
         Create New Community
       </h2>
 
